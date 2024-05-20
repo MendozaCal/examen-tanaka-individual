@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1527612249809976846}
   m_Layer: 0
   m_Name: bala negra
-  m_TagString: Untagged
+  m_TagString: BulletBlack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

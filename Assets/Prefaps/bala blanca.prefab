@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5690234926667247736}
   m_Layer: 0
   m_Name: bala blanca
-  m_TagString: Untagged
+  m_TagString: BulletWhite
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
