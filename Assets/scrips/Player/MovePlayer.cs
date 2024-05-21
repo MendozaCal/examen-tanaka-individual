@@ -12,11 +12,11 @@ public class MovePlayer : MoveController
         float verticalInput = Input.GetAxis("Vertical");
 
         Vector3 movement = new Vector3(horizontalInput, 0, verticalInput) * maxSpeed * Time.deltaTime;
-        Quaternion rotation = Quaternion.Euler(0, horizontalInput * rotationSpeed * Time.deltaTime, 0);
+        //Quaternion rotation = Quaternion.Euler(0, horizontalInput * rotationSpeed * Time.deltaTime, 0);
         Vector3 movimiento = new Vector3(0, velocityUp * Time.deltaTime, 0);
 
         rb.MovePosition(transform.position + transform.TransformDirection(movement));
-        rb.MoveRotation(rb.rotation * rotation);
+        //rb.MoveRotation(rb.rotation * rotation);
         rb.MovePosition(rb.position + movimiento);
     }
 }

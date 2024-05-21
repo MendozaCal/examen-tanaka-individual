@@ -5,7 +5,6 @@ using UnityEngine;
 public class MoveController : MonoBehaviour
 {
     [SerializeField] protected float maxSpeed = 15;
-    protected float distanceAtack = 20;
     protected Transform Player;
     protected Rigidbody rb;
     private void Awake()
